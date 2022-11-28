@@ -1,0 +1,21 @@
+img {
+    object-fit: contain;
+}
+
+body {
+    height: 100%;
+}
+
+wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
+footer{
+    text-align: center;
+    width: 100%;
+}
