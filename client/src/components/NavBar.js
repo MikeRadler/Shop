@@ -34,7 +34,7 @@ const NavBar = observer(() => {
                          to={SHOP_ROUTE}
                          onClick={click}
                 >
-                    <Navbar.Brand>Pidorasio</Navbar.Brand>
+                    <Navbar.Brand>Home</Navbar.Brand>
                 </NavLink>
                 {user._isAuth ?
                     <Nav className="ml-auto">

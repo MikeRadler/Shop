@@ -2,20 +2,12 @@ img {
     object-fit: contain;
 }
 
-body {
-    height: 100%;
+.page-item .page-link {
+    background: white;
+    color: black;
+    border-color: lightgray;
 }
 
-wrapper {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 1 auto;
-}
-footer{
-    text-align: center;
-    width: 100%;
+.active .page-link {
+    background: #F8F9FA;
 }
