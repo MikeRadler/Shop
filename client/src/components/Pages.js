@@ -14,7 +14,7 @@ const Pages = observer(() => {
 
     if (pageCount > 1)
     return (
-        <Pagination className='mt-5'>
+        <Pagination className='mt-5 justify-content-center'>
             {pages.map(page =>
                 <Pagination.Item
                     key={page}
