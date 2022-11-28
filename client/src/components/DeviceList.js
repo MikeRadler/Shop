@@ -11,6 +11,7 @@ const DeviceList = observer(() => {
             {device.devices.map(item =>
                 <DeviceItem key={item.id} item={item} brand={device.brands.at(item.brandId - 1).name}/>,
             )}
+
         </Row>
     );
 });
