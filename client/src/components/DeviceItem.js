@@ -14,7 +14,7 @@ const DeviceItem = ({item, brand}) => {
             onClick={() => history(DEVICE_ROUTE + '/' + item.id)}
         >
             <Card style={{width: 150, cursor: 'pointer'}} border={'light'}>
-                <Image className={classes.img} rounded={true} width={150} height={150} src={process.env.REACT_APP_API_URL + item.img}/>
+                <Image className={classes} rounded={true} width={150} height={150} src={process.env.REACT_APP_API_URL + item.img}/>
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="text-black-50">{brand}</div>
                     <div className="d-flex align-items-center">
